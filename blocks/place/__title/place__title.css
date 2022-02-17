@@ -1,0 +1,28 @@
+.place__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    line-height: 1.1;
+    font-size: calc(11.7vw - 48px);
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    line-height: 1.09;
+    font-size: calc(2.23vw + 25px);
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .place__title {
+    margin-left: 16px;
+  }
+}
